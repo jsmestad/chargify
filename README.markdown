@@ -24,6 +24,9 @@ This fork breaks all compatibility with previous versions (< 0.3.0)
 
 ## Rails Usage
 
+### Add the chargify gem to your Gemfile
+		gem 'jsmestad-chargify', '~> 0.3.2', :require => 'chargify'
+		
 ### config/initializers/chargify.rb
     Chargify::Config.setup do |config|
       config[:subdomain] = 'xxx-test'
